@@ -1,31 +1,20 @@
-<!DOCTYPE htMl>
-<html>
-  <head>
-    <title>Titulo para la pagina</title>
-  </head>
-  <body>
-    <h1>Mi primera pagina web 2</h1>
-    <p>Ya está online</p>
-    <p>Escribe y ejecuta código Python a continuación:</p>
-    <script type="text/python">
-      # Tu código Python aquí
-      print("Hola desde PyScript!")
-      a = 5
-      b = 7
+<!DOCTYPE html>  
+<html lang="en">  
+  <head>  
+    <meta charset="utf-8" />  
+    <meta name="viewport" content="width=device-width, initial-scale=1" />  
+    <title>Hello World!</title>  
+    <!-- linking to PyScript assets -->  
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />  
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>  
+  </head>  
+  <body>  
+  <!-- Put Python code inside the the <py-script> tag -->  
+    <py-script>
+      print("Hello World!")
+      a = 4
+      b = 8
       print(a+b)
-    </script>
-    <script src="https://raw.githack.com/pyscript/pys/master/dist/pys.js"></script>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/OltY8JIaP-4" frameborder="0" allowfullscreen></iframe>
-    <a href="https://mega.nz/file/F0IkXSTA#yRvaAEn1tVCURdadKmoHWOir0KANVtUm_YSOu9J3r6s">Link de enlace en mega</a>
-    <iframe src="https://drive.google.com/file/d/118lkN1s6FzTxHXYRsc4G8ykwHfCkhhus/preview" width="640" height="480" allow="autoplay"></iframe>
-    <p>Para ejecutar mi Jupyter Notebook, haz clic en el siguiente enlace:</p>
-    <a href="https://mybinder.org/v2/gh/percyguerra/webpage/55b7fc809a5e96da68997c46e5092bfc800d39f6?urlpath=lab%2Ftree%2FUntitled1.ipynb"
-      target="_blank">Abrir en Binder</a>
-    <iframe
-        src="https://posit.cloud/content/6999196"
-        frameborder="0"
-        width="800"
-        height="600"
-    ></iframe>    
-  </body>
-</html>
+    </py-script>  
+  </body>  
+</html>  
